@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ocr_japanease"
+version = "0.1.0"
+description = ""
+authors = ["nekanat <nekanat.stock@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.1"
+scikit-learn = "^0.24.1"
+numpy = "^1.20.0"
+opencv-python = "^4.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
